@@ -20,14 +20,10 @@ def solution(s):
         #     if stack:
                 # if j=='(' or j=='{' or j=='[':
 
-
-
-
-
     return new_s
 
 
 s = stdin.readline().strip()
-# print(solution(s))
+print(solution(s))
 
 
