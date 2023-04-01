@@ -1,4 +1,5 @@
 # dfs/bfs
+# Union find
 from collections import deque
 
 def solution(n, computers):
