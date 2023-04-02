@@ -32,6 +32,8 @@ def solution(n, edge):
     # print(na_win)   # {1: [2, 5], 2: [5], 3: [2, 5], 4: [3, 2, 5], 5: []}
     # print(na_lose)  # {1: [], 2: [4, 3, 1], 3: [4], 4: [], 5: [2, 1, 3, 4]}
 
+    # output
+    # 내가 이긴 선수의 수 + 내가 진 선수의 수 = n-1이면 순위가 정해진다는 뜻
     answer = 0
     for i in range(1, n+1):
         if len(na_win[i]) + len(na_lose[i]) == n - 1:
